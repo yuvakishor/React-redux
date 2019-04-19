@@ -1,0 +1,238 @@
+{
+    "restaurants": [
+        {
+            "res_id": 1,
+            "name": "KB Restaurant",
+            "chain_id": 97262,
+            "langCode": "en",
+            "cost_for_two_multiplier": 0.4,
+            "score": 3.9103212,
+            "rating_data": {
+                "aggregate_rating": "4.0",
+                "rating_text": "Good",
+                "rating_color": "9ACD32",
+                "votes": 357
+            },
+            "currency_min": "₹150",
+            "currency_max": "₹200",
+            "img_path": "img-1.jpg",
+            "currencyAffix": "prefix",
+            "hasOnlineDelivery": 1,
+            "isDeliveringNow": 1,
+            "rating_widget": {
+                "votes": "357",
+                "rating_level": "level-6",
+                "aggregate_rating": "4.0",
+                "rating_text": "Good",
+                "rating_sub_text": "user rating",
+                "rating_display": "3.6",
+                "rating_color": "9ACD32",
+                "contributor": "user"
+            }
+        },
+        {
+            "res_id": 2,
+            "name": "Ismail Restaurant",
+            "chain_id": null,
+            "langCode": "en",
+            "cost_for_two_multiplier": 0.4,
+            "score": 3.9103212,
+            "rating_data": {
+                "aggregate_rating": "3.8",
+                "rating_text": "Good",
+                "rating_color": "9ACD32",
+                "votes": 78
+            },
+            "currency": "₹",
+            "img_path": "img-2.jpg",
+            "currencyAffix": "prefix",
+            "hasOnlineDelivery": 1,
+            "isDeliveringNow": 1,
+            "rating_widget": {
+                "votes": "78",
+                "rating_level": "level-6",
+                "aggregate_rating": "3.8",
+                "rating_text": "Good",
+                "rating_sub_text": "user rating",
+                "rating_display": "3.6",
+                "rating_color": "9ACD32",
+                "contributor": "user"
+            }
+        },
+        {
+            "res_id": 3,
+            "name": "Irani Biryani",
+            "chain_id": null,
+            "langCode": "en",
+            "cost_for_two_multiplier": 0.4,
+            "score": 3.9103212,
+            "rating_data": {
+                "aggregate_rating": "3.9",
+                "rating_text": "Good",
+                "rating_color": "9ACD32",
+                "votes": 353
+            },
+            "currency": "₹",
+            "img_path": "img-3.jpg",
+            "currencyAffix": "prefix",
+            "hasOnlineDelivery": 1,
+            "isDeliveringNow": 1,
+            "rating_widget": {
+                "votes": "353",
+                "rating_level": "level-6",
+                "aggregate_rating": "3.9",
+                "rating_text": "Good",
+                "rating_sub_text": "user rating",
+                "rating_display": "3.8",
+                "rating_color": "9ACD32",
+                "contributor": "user"
+            }
+        },
+        {
+            "res_id": 4,
+            "name": "Kaveri Grand",
+            "chain_id": null,
+            "langCode": "en",
+            "cost_for_two_multiplier": 0.4,
+            "score": 3.9103212,
+            "rating_data": {
+                "aggregate_rating": "3.2",
+                "rating_text": "Very Good",
+                "rating_color": "5BA829",
+                "votes": 292
+            },
+            "currency": "₹",
+            "img_path": "img-4.jpg",
+            "currencyAffix": "prefix",
+            "hasOnlineDelivery": 1,
+            "isDeliveringNow": 1,
+            "rating_widget": {
+                "votes": "292",
+                "rating_level": "level-7",
+                "aggregate_rating": "4.0",
+                "rating_text": "Very Good",
+                "total_av": 0,
+                "rating_sub_text": "user rating",
+                "rating_display": "4.0",
+                "rating_color": "5BA829",
+                "contributor": "user"
+            }
+        },
+        {
+            "res_id": 5,
+            "name": "Leaf Restaurant",
+            "chain_id": 18808640,
+            "langCode": "en",
+            "cost_for_two_multiplier": 0.4,
+            "score": 3.9103212,
+            "rating_data": {
+                "aggregate_rating": "3.4",
+                "rating_text": "Average",
+                "rating_color": "CDD614",
+                "votes": 31
+            },
+            "currency": "₹",
+            "img_path": "img-5.jpg",
+            "currencyAffix": "prefix",
+            "hasOnlineDelivery": 1,
+            "isDeliveringNow": 1,
+            "rating_widget": {
+                "votes": "31",
+                "rating_level": "level-5",
+                "aggregate_rating": "3.4",
+                "rating_text": "Average",
+                "rating_sub_text": "user rating",
+                "rating_display": "3.4",
+                "rating_color": "CDD614",
+                "contributor": "user"
+            }
+        },
+        {
+            "res_id": 6,
+            "name": "Punjabi Dhaba",
+            "chain_id": null,
+            "langCode": "en",
+            "cost_for_two_multiplier": 0.4,
+            "score": 3.9103212,
+            "rating_data": {
+                "aggregate_rating": "3.9",
+                "rating_text": "Good",
+                "rating_color": "9ACD32",
+                "votes": 74
+            },
+            "currency": "₹",
+            "img_path": "img-6.jpg",
+            "currencyAffix": "prefix",
+            "hasOnlineDelivery": 1,
+            "isDeliveringNow": 1,
+            "rating_widget": {
+                "votes": "76",
+                "rating_level": "level-6",
+                "aggregate_rating": "3.9",
+                "rating_text": "Good",
+                "rating_sub_text": "user rating",
+                "rating_display": "3.9",
+                "rating_color": "9ACD32",
+                "contributor": "user"
+            }
+        },
+        {
+            "res_id": 7,
+            "name": "Allurayya Bakery",
+            "chain_id": null,
+            "langCode": "en",
+            "cost_for_two_multiplier": 0.4,
+            "score": 3.9103212,
+            "rating_data": {
+                "aggregate_rating": "3.8",
+                "rating_text": "Average",
+                "rating_color": "CDD614",
+                "votes": 29
+            },
+            "currency": "₹",
+            "img_path": "img-7.jpg",
+            "currencyAffix": "prefix",
+            "hasOnlineDelivery": 1,
+            "isDeliveringNow": 1,
+            "rating_widget": {
+                "votes": "29",
+                "rating_level": "level-5",
+                "aggregate_rating": "3.3",
+                "rating_text": "Average",
+                "rating_sub_text": "user rating",
+                "rating_display": "3.8",
+                "rating_color": "CDD614",
+                "contributor": "user"
+            }
+        },
+        {
+            "res_id": 8,
+            "name": "Frankie Station",
+            "chain_id": null,
+            "langCode": "en",
+            "cost_for_two_multiplier": 0.4,
+            "score": 3.9103212,
+            "rating_data": {
+                "aggregate_rating": "3.8",
+                "rating_text": "Good",
+                "rating_color": "9ACD32",
+                "votes": 58
+            },
+            "currency": "₹",
+            "img_path": "img-8.jpg",
+            "currencyAffix": "prefix",
+            "hasOnlineDelivery": 1,
+            "isDeliveringNow": 1,
+            "rating_widget": {
+                "votes": "58",
+                "rating_level": "level-6",
+                "aggregate_rating": "3.8",
+                "rating_text": "Good",
+                "rating_sub_text": "user rating",
+                "rating_display": "3.8",
+                "rating_color": "9ACD32",
+                "contributor": "user"
+            }
+        }
+    ]
+}
