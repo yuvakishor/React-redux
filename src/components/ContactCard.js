@@ -23,7 +23,6 @@ export default class ContactCard extends Component {
                                     </div>
                                 </div>
                             ))
-                            
                     }
                 </div>
             </React.Fragment>
