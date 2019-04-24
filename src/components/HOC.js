@@ -11,7 +11,6 @@ var MyHOC = ComposedComponent => class extends React.Component {
       });
    }
    render() {
-       
       return <ComposedComponent {...this.props} {...this.state} />;
    }
 };

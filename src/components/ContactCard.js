@@ -1,24 +1,32 @@
-import React from 'react';
+import React, { Component } from 'react';
+import CardJson from '../components/cardjson'
 
+export default class ContactCard extends Component {
 
-
-
-const ContactCrad = (props) => {
-    console.log(props)
-    return (
-        <div className="col-md-3 mt-5">
-            <div className="card">
-                <img src={require(`../asserts/${props.imgUrl}`)} alt="logo"/>
-                <div className="card-body">
-                    <h3 style={{ color: "green" }}>{props.name}</h3>
-                    <h5>Email:{props.email}</h5>
-                    <p><strong>phone:</strong>{props.phone}</p>
+    render() {
+        let sample = CardJson
+        console.log(sample)
+        return (
+            <React.Fragment>
+                <div className="row">
+                    {
+                        sample.map((val, i) =>
+                            (
+                                <div className="col-md-3 mt-5" key={i}>
+                                    <div className="card">
+                                        <img src={require(`../asserts/${val.imgUrl}`)} alt="logo" />
+                                        <div className="card-body">
+                                            <h3 style={{ color: "green" }}>{val.name}</h3>
+                                            <h5>Email:{val.email}</h5>
+                                            <p><strong>phone:</strong>{val.phone}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            ))
+                            
+                    }
                 </div>
-            </div>
-        </div>
-    )
+            </React.Fragment>
+        )
+    }
 }
-export default ContactCrad;
-
-
-

@@ -7,6 +7,7 @@ import ContactCard from '../components/ContactCard'
 import Refs from '../components/Refs'
 import Get from '../components/Get'
 import Posts from '../components/posts'
+import Sample from '../components/sample'
 
 export default class Routing extends Component{
     render(){
@@ -21,7 +22,8 @@ export default class Routing extends Component{
                         <Route path="/Refs" component={Refs} />
                         <Route path="/Get" component={Get} />
                         <Route path="/Posts" component={Posts} />
-                    </Switch>
+                        <Route path="/Sample" component={Sample} />
+                    </Switch>   
                 </Router>
             </React.Fragment>
         )
