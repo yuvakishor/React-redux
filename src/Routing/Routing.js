@@ -1,5 +1,5 @@
-import React,{Component} from 'react';
-import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Form from '../components/Form'
 import ClickIncrement from '../components/ClickIncrement'
 import HOC from '../components/HOC'
@@ -8,14 +8,15 @@ import Refs from '../components/Refs'
 import Get from '../components/Get'
 import Posts from '../components/posts'
 import Sample from '../components/sample'
+import Hooks from '../components/Hooks'
 
-export default class Routing extends Component{
-    render(){
-        return(
+export default class Routing extends Component {
+    render() {
+        return (
             <React.Fragment>
                 <Router>
                     <Switch>
-                        <Route  exact={true} path="/" component={Form} />
+                        <Route exact={true} path="/" component={Form} />
                         <Route path="/ClickIncrement" component={ClickIncrement} />
                         <Route path="/HOC" component={HOC} />
                         <Route path="/ContactCard" component={ContactCard} />
@@ -23,7 +24,8 @@ export default class Routing extends Component{
                         <Route path="/Get" component={Get} />
                         <Route path="/Posts" component={Posts} />
                         <Route path="/Sample" component={Sample} />
-                    </Switch>   
+                        <Route path="/Hooks" component={Hooks} />
+                    </Switch>
                 </Router>
             </React.Fragment>
         )
