@@ -9,6 +9,7 @@ import Get from '../components/Get'
 import Posts from '../components/posts'
 import Sample from '../components/sample'
 import Hooks from '../components/Hooks'
+import Register from '../components/Register'
 
 export default class Routing extends Component {
     render() {
@@ -25,6 +26,7 @@ export default class Routing extends Component {
                         <Route path="/Posts" component={Posts} />
                         <Route path="/Sample" component={Sample} />
                         <Route path="/Hooks" component={Hooks} />
+                        <Route path="/Register" component={Register} />
                     </Switch>
                 </Router>
             </React.Fragment>
