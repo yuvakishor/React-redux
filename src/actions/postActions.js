@@ -1,4 +1,4 @@
-import { FETCH_POSTS, NEW_POST } from '../actions/types';
+import { FETCH_POSTS, NEW_POST,USER_REGISTER_FORM} from '../actions/types';
 
 export const fetchPosts = () => dispatch => {
     console.log("action called")
@@ -22,6 +22,21 @@ export const createPost = (postData) => dispatch => {
         .then(res => res.json())
         .then(post => dispatch({
             type: NEW_POST,
+            payload: post
+        }));
+};
+export const userRegisterForm = (postData) => dispatch => {
+    console.log('action called')
+    fetch('http://jsonplaceholder.typicode.com/posts', {
+        method: 'post',
+        headers: {
+            'content-type': 'application/json'
+        },
+        body: JSON.stringify(postData)
+    })
+        .then(res => res.json())
+        .then(post => dispatch({
+            type: USER_REGISTER_FORM,
             payload: post
         }));
 }

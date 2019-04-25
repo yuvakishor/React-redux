@@ -19,7 +19,6 @@ export default class TableRow extends Component {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         )

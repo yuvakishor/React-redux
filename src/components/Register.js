@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux'
+import PropType from 'prop-types'
+import { userRegisterForm } from '../actions/postActions'
 
 class Register extends Component {
     constructor() {
@@ -15,12 +18,12 @@ class Register extends Component {
     }
     handleRegisterSubmit = (event) => {
         event.preventDefault()
+        const post = { ...this.state }
+        this.props.userRegisterForm(post)
         if (this.formValid()) {
             this.setState({ errors: [], loading: true })
-           
             this.props.history.push({
                 pathname: '/'
-                
             })
         }
     }
@@ -73,7 +76,7 @@ class Register extends Component {
         </div>
     ));
     render() {
-        const { fullname, email, phonenumber, password, confirmpassword,errors, loading } = this.state
+        const { fullname, email, phonenumber, password, confirmpassword, errors, loading } = this.state
         return (
             <React.Fragment>
                 {
@@ -145,7 +148,7 @@ class Register extends Component {
                                             />
                                         </div>
                                         <button type="submit" disabled={loading} className={`btn btn-success btn-block`}>
-                                                {loading ? <span className="spinner-border spinner-border-sm"></span> : null} REGISTER
+                                            {loading ? <span className="spinner-border spinner-border-sm"></span> : null} REGISTER
                                             </button>
                                     </form>
                                 </div>
@@ -157,4 +160,7 @@ class Register extends Component {
         )
     }
 }
-export default Register;
+Register.PropType = {
+    userRegisterForm: PropType.func.isRequired
+}
+export default connect(null, { userRegisterForm })(Register);
